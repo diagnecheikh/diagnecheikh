@@ -1,84 +1,84 @@
 <div align="center">
 
 # `CD-S3E-2026`
-### Embedded Systems Engineer — Apprentice Grade
+### Ingénieur Systèmes Embarqués — Grade Apprenti
 
-![Availability](https://img.shields.io/badge/availability-immediate-2b8a3e?style=for-the-badge)
-![Contract](https://img.shields.io/badge/contract-36%20months-d9480f?style=for-the-badge)
-![Mobility](https://img.shields.io/badge/mobility-france--wide-1B2A4A?style=for-the-badge)
-![Status](https://img.shields.io/badge/status-actively--seeking-blue?style=for-the-badge)
+![Disponibilité](https://img.shields.io/badge/disponibilit%C3%A9-imm%C3%A9diate-2b8a3e?style=for-the-badge)
+![Contrat](https://img.shields.io/badge/contrat-36%20mois-d9480f?style=for-the-badge)
+![Mobilité](https://img.shields.io/badge/mobilit%C3%A9-france%20enti%C3%A8re-1B2A4A?style=for-the-badge)
+![Statut](https://img.shields.io/badge/statut-en%20recherche%20active-blue?style=for-the-badge)
 
 </div>
 
 ---
 
-## General Description
+## Description générale
 
-A general-purpose engineering unit optimized for operation across both **low-level hardware** (VHDL, FPGA, RISC-V) and **real-time embedded firmware** (C, STM32). Manufactured with a Computer Science DUT, tempered through a Bachelor's in Embedded Systems, and currently being recompiled into an Engineer-grade build (S3E, CESI, 2026–2029).
+Composant polyvalent conçu pour opérer indifféremment sur les **couches basses** (VHDL, FPGA, RISC-V) et sur le **firmware temps réel** (C, STM32). Fabriqué avec un DUT Informatique, trempé via une Licence en Systèmes Embarqués, et actuellement recompilé en version Ingénieur (S3E, CESI, 2026–2029).
 
 ```text
-Part Number   : CD-S3E-2026
-Package       : Alternance / Apprentissage — 36 mois
-Manufacturer  : CESI Nanterre
-Status        : Available now
+Référence      : CD-S3E-2026
+Conditionnement: Alternance / Apprentissage — 36 mois
+Fabricant      : CESI Nanterre
+Statut         : Disponible immédiatement
 ```
 
-## Key Features
+## Caractéristiques principales
 
-- ⚡ Native hardware/software dual-culture — no abstraction layer required
-- 🔍 Low-level diagnostics: boot sequence tracing, driver development, protocol debugging (UART / I2C / SPI)
-- 📝 Documentation shipped by default, not an optional add-on
-- 🔄 Low ramp-up latency on new tools or languages
-- 🛠️ Compatible with STM32CubeIDE, ModelSim, QEMU, Proteus, Git
+- ⚡ Double culture matériel/logiciel native — sans couche d'abstraction
+- 🔍 Diagnostic bas niveau : séquence de boot, développement de drivers, débogage de protocoles (UART / I2C / SPI)
+- 📝 Documentation intégrée par défaut, pas une option
+- 🔄 Faible latence de montée en compétence sur un nouvel outil ou langage
+- 🛠️ Compatible STM32CubeIDE, ModelSim, QEMU, Proteus, Git
 
-## Pin Configuration
+## Configuration des broches (Pinout)
 
 ```
                      ┌─────────────────┐
        RIGUEUR ──────┤                 ├────── UART / I2C / SPI
      C / PYTHON ──────┤     CD-S3E      ├────── STM32 / ARM Cortex-M
     VHDL / FPGA ──────┤      2026       ├────── DOCUMENTATION
-     RÉSILIENCE ──────┤                 ├────── TEAMWORK
+     RÉSILIENCE ──────┤                 ├────── ESPRIT D'ÉQUIPE
                      └─────────────────┘
 ```
 
-## Absolute Maximum Ratings
+## Valeurs maximales absolues
 
-| Parameter | Symbol | Rating | Unit |
+| Paramètre | Symbole | Valeur | Unité |
 |---|---|---|---|
-| Continuous debug session | `T_DEBUG` | 12 | h before coffee required |
-| Deadline pressure | `P_DDL` | 72 | h stable operation |
-| Retry tolerance before giving up | `N_RETRY` | ∞ | cycles |
-| Response time to a serious offer | `T_RESP` | < 24 | h |
+| Session de debug continu | `T_DEBUG` | 12 | h avant café obligatoire |
+| Pression deadline | `P_DDL` | 72 | h en fonctionnement stable |
+| Tolérance à l'échec avant nouvelle tentative | `N_RETRY` | ∞ | cycles |
+| Délai de réponse à une offre sérieuse | `T_RESP` | < 24 | h |
 
-## Electrical / Functional Characteristics
+## Caractéristiques électriques / fonctionnelles
 
-| Parameter | Min | Typ | Max |
+| Paramètre | Min | Typ | Max |
 |---|---|---|---|
-| Autonomy on an embedded project | Supervised | Semi-autonomous | Autonomous |
-| Hardware ↔ software understanding | Driver-level | System-level | Architecture-level |
-| Technical curiosity | — | High | Never stops |
+| Autonomie sur un projet embarqué | Encadré | Semi-autonome | Autonome |
+| Compréhension matériel ↔ logiciel | Driver | Système | Architecture |
+| Curiosité technique | — | Élevée | Ne s'arrête jamais |
 
 ## Applications
 
-- Control-command systems & critical automatisms
-- Real-time firmware on microcontrollers (STM32 / ARM Cortex-M)
-- Digital design & validation (FPGA / VHDL)
-- Interface testing, validation & diagnostics for embedded systems
+- Systèmes de contrôle-commande et automatismes critiques
+- Firmware temps réel sur microcontrôleurs (STM32 / ARM Cortex-M)
+- Conception et validation numérique (FPGA / VHDL)
+- Test, validation et diagnostic d'interfaces embarquées
 
-## Recent Builds
+## Dernières compilations (projets)
 
-- 🚗 **Autonomous rover — STM32F411RE**: C drivers, ultrasonic/infrared sensors, real-time PWM motor control
-- 🔧 **FPGA / VHDL digital design**: logic modules, ModelSim simulation, RISC-V timing/architecture study
-- 🖥️ **xv6 kernel**: system call implementation, memory paging, scheduler analysis (QEMU)
-- 🖼️ **Mini-PNG editor (C)**: binary file manipulation, block-structured format
+- 🚗 **Rover autonome — STM32F411RE** : pilotes en C, capteurs ultrasoniques/infrarouges, pilotage moteurs PWM en temps réel
+- 🔧 **Conception numérique FPGA / VHDL** : modules logiques, simulation ModelSim, étude timing/architecture RISC-V
+- 🖥️ **Noyau xv6** : implémentation d'appels système, pagination mémoire, analyse de l'ordonnanceur (QEMU)
+- 🖼️ **Éditeur Mini-PNG (C)** : manipulation de fichiers binaires, format structuré en blocs
 
-## Ordering Information
+## Informations de commande
 
 ```text
-$ contact --email cheikhdiagne5222@gmail.com --phone "+33 7 80 53 61 79"
+$ contact --email cheikhdiagne5222@gmail.com --tel "+33 7 80 53 61 79"
 $ connect --linkedin linkedin.com/in/diagne-cheikh
-$ view --portfolio portfolio-iota-weld-52.vercel.app
+$ voir --portfolio portfolio-iota-weld-52.vercel.app
 ```
 
 <div align="center">
